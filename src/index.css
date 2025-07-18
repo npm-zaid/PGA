@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: all;
+  src: url('./src/assets/A.ttf');
+}
+
+@font-face {
+  font-family: B;
+  src: url('./src/assets/B.ttf');
+}
+
+body{
+    font-family: all;
+}
+
+.logo{
+  font-family: B;
+}
